@@ -1,0 +1,45 @@
+{
+  "name": "farbook",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@farcaster/hub-nodejs": "^0.7.2",
+    "@farcaster/hub-web": "^0.3.2",
+    "@farcaster/js": "^0.3.0",
+    "@grpc/grpc-js": "^1.8.14",
+    "@noble/ed25519": "^2.0.0",
+    "@types/node": "20.1.4",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "crypto": "^1.0.1",
+    "dgram": "^1.0.1",
+    "dns": "^0.2.2",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.2",
+    "fs": "^0.0.1-security",
+    "http2": "^3.3.7",
+    "net": "^1.0.2",
+    "next": "13.4.2",
+    "node-fetch": "^3.3.1",
+    "postcss": "8.4.23",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-qr-code": "^2.0.11",
+    "sha.js": "^2.4.11",
+    "tailwindcss": "3.3.2",
+    "tls": "^0.0.1",
+    "tweetnacl": "^1.0.3",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/sha.js": "^2.4.0"
+  }
+}
